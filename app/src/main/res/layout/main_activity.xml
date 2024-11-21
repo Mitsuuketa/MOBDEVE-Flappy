@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:gravity="bottom"
     android:orientation="vertical">
 
     <LinearLayout
@@ -12,10 +13,36 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="87dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textCoins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="999"
+                android:textColor="#000000"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/coins"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:background="#00000000"
+                app:srcCompat="@drawable/coins" />
+
+        </LinearLayout>
+
         <ImageView
             android:id="@+id/title"
             android:layout_width="360dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
             android:background="#00EDEAEA"
             android:src="@drawable/title" />
 
@@ -35,5 +62,45 @@
             android:contentDescription="@string/app_name"
             android:src="@drawable/play" />
 
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/highscoreBtn"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/highscore" />
+
+            <ImageButton
+                android:id="@+id/settingsBtn"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/settings" />
+
+            <ImageButton
+                android:id="@+id/shopBtn"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/shop" />
+
+        </LinearLayout>
+
     </LinearLayout>
+
 </RelativeLayout>
