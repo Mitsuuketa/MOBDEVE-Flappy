@@ -21,6 +21,16 @@ public class BitmapBank {
         bird[1] = BitmapFactory.decodeResource(resources, R.drawable.thebird);
         bird[2] = BitmapFactory.decodeResource(resources, R.drawable.thebird);
         bird[3] = BitmapFactory.decodeResource(resources, R.drawable.thebird);
+        for (int i = 0; i < bird.length; i++) {
+            Bitmap originalBird = BitmapFactory.decodeResource(resources, R.drawable.thebird);
+            bird[i] = scaleBitmap(originalBird, 0.19f); // Scale down to 50% of the original size
+        }
+    }
+
+    public Bitmap scaleBitmap(Bitmap bitmap, float scaleFactor) {
+        int width = (int) (bitmap.getWidth() * scaleFactor);
+        int height = (int) (bitmap.getHeight() * scaleFactor);
+        return Bitmap.createScaledBitmap(bitmap, width, height, false);
     }
 
     public Bitmap getBird (int frame){
