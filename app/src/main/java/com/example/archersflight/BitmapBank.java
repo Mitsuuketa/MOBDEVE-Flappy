@@ -1,5 +1,7 @@
 package com.example.archersflight;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -7,20 +9,32 @@ import android.graphics.BitmapFactory;
 public class BitmapBank {
 
     Bitmap background_game;
-
     Bitmap[] bird;
 
-    public BitmapBank(Resources resources){
+    public BitmapBank(Resources resources, Context context){
 
         background_game = BitmapFactory.decodeResource(resources, R.drawable.background_game);
-
         background_game = scaleImage(background_game);
 
+        // Retrieve the selected avatar from SharedPreferences
+        SharedPreferences sharedPreferences = context.getSharedPreferences("GamePrefs", Context.MODE_PRIVATE);
+        int selectedAvatarRes = sharedPreferences.getInt("selected_avatar", R.drawable.default_avatar);
+
         bird = new Bitmap[4];
-        bird[0] = BitmapFactory.decodeResource(resources, R.drawable.thebird);
-        bird[1] = BitmapFactory.decodeResource(resources, R.drawable.thebird);
-        bird[2] = BitmapFactory.decodeResource(resources, R.drawable.thebird);
-        bird[3] = BitmapFactory.decodeResource(resources, R.drawable.thebird);
+//        bird[0] = BitmapFactory.decodeResource(resources, R.drawable.default_avatar);
+//        bird[1] = BitmapFactory.decodeResource(resources, R.drawable.default_avatar);
+//        bird[2] = BitmapFactory.decodeResource(resources, R.drawable.default_avatar);
+//        bird[3] = BitmapFactory.decodeResource(resources, R.drawable.default_avatar);
+        for (int i = 0; i < bird.length; i++) {
+            Bitmap originalBird = BitmapFactory.decodeResource(resources, selectedAvatarRes);
+            bird[i] = scaleBitmap(originalBird, 0.10f); // Scale down to 50% of the original size
+        }
+    }
+
+    public Bitmap scaleBitmap(Bitmap bitmap, float scaleFactor) {
+        int width = (int) (bitmap.getWidth() * scaleFactor);
+        int height = (int) (bitmap.getHeight() * scaleFactor);
+        return Bitmap.createScaledBitmap(bitmap, width, height, false);
     }
 
     public Bitmap getBird (int frame){

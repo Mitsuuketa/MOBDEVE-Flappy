@@ -20,7 +20,7 @@ public class AppConstants {
 
     public static void initialization(Context context){
         setScreenSize(context);
-        bitmapBank = new BitmapBank(context.getResources());
+        bitmapBank = new BitmapBank(context.getResources(), context);
         gameEngine = new GameEngine();
 
         AppConstants.gravity = 3;
