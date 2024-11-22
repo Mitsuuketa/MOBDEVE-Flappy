@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_title.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\title.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\layout_main_activity.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_thebird.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\thebird.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_avatar4.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\avatar4.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_settings.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_avatar5.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\avatar5.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_highscore.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\highscore.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_shop.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\shop.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_music.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\music.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_coins.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\coins.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_avatar2.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\avatar2.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\layout_item_avatar.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\layout\\item_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\layout_activity_game.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\layout\\activity_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_background.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\layout_activity_shop.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\layout\\activity_shop.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.archersflight.app-debug-58:/layout_main_activity.xml.flat",
+        "source": "com.example.archersflight.app-main-60:/layout/main_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_avatar3.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\avatar3.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_play.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\play.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_background_game.jpg.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\background_game.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.archersflight.app-debug-58:/layout_item_avatar.xml.flat",
+        "source": "com.example.archersflight.app-main-60:/layout/item_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_avatar6.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\avatar6.png"
+    },
+    {
+        "merged": "com.example.archersflight.app-debug-58:/drawable_default_avatar.png.flat",
+        "source": "com.example.archersflight.app-main-60:/drawable/default_avatar.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-debug-58:\\drawable_avatar1.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\daemon\\8.7\\com.example.archersflight.app-main-60:\\drawable\\avatar1.png"
+    }
+]
