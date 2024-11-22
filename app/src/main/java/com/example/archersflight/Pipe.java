@@ -4,11 +4,12 @@
     import android.graphics.Color;
     import android.graphics.Paint;
     import android.graphics.Rect;
+    import android.util.Log;
 
     public class Pipe {
-        private static final int GAP = 400; // Gap between top and bottom pipe
+        private static final int GAP = 600; // Gap between top and bottom pipe
         private static final int PIPE_WIDTH = 200;
-        private static final int PIPE_VELOCITY = 10;
+        private static final int PIPE_VELOCITY = 8;
         private Paint paint;
         private Rect topPipe, bottomPipe;
         private float x;
@@ -28,15 +29,18 @@
             // Define the pipes' initial positions
             topPipe.set((int) x, 0, (int) (x + PIPE_WIDTH), randomHeight);
             bottomPipe.set((int) x, randomHeight + GAP, (int) (x + PIPE_WIDTH), screenHeight);
+            Log.d("Pipe", "New Pipe created at x = " + x + ", top height = " + randomHeight);
         }
 
         public void update() {
             x -= PIPE_VELOCITY; // Move pipes left
             topPipe.offset(-PIPE_VELOCITY, 0);
             bottomPipe.offset(-PIPE_VELOCITY, 0);
+            Log.d("Pipe", "Pipe moved to x = " + x);
         }
 
         public void draw(Canvas canvas) {
+            Log.d("Pipe", "Drawing pipe at x = " + x);
             canvas.drawRect(topPipe, paint);
             canvas.drawRect(bottomPipe, paint);
         }
@@ -64,5 +68,9 @@
 
         public void setScored(boolean scored) {
             this.scored = scored;
+        }
+
+        public static int getPipeWidth() {
+            return PIPE_WIDTH;
         }
     }
