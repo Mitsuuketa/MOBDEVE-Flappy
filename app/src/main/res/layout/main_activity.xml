@@ -7,6 +7,7 @@
     android:gravity="bottom"
     android:orientation="vertical">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -26,7 +27,7 @@
                 android:src="@drawable/coins" />
 
             <TextView
-                android:id="@+id/textCoins"
+                android:id="@+id/coinsTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
@@ -48,10 +49,10 @@
             android:src="@drawable/title" />
 
         <ImageView
-            android:id="@+id/theBird"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginTop="30dp"
+            android:id="@+id/avatarImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
             android:src="@drawable/thebird" />
 
         <ImageButton
@@ -107,5 +108,14 @@
         </LinearLayout>
 
     </LinearLayout>
+    <!-- FrameLayout to hold the overlay -->
+    <FrameLayout
+        android:id="@+id/settings_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+    </FrameLayout>
 
 </RelativeLayout>
