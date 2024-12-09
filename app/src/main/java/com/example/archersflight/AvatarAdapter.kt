@@ -46,11 +46,11 @@ class AvatarAdapter(
         )
         holder.imageView.setImageBitmap(optimizedBitmap)
 
-        // Highlight if this is the selected avatar
+        // Apply a black border to the selected avatar
         if (avatar.drawableRes == selectedAvatarRes) {
-            holder.itemView.setBackgroundColor(Color.YELLOW) // Highlight selected avatar
+            holder.imageView.setBackgroundResource(R.drawable.selected_avatar_border)  // Apply border drawable
         } else {
-            holder.itemView.setBackgroundColor(Color.TRANSPARENT) // Default background
+            holder.imageView.setBackgroundResource(0)  // Remove border for unselected avatar
         }
 
         // Set click listener

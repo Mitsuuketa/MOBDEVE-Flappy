@@ -24,13 +24,9 @@ public class BitmapBank {
         bird = new Bitmap[4];
         for (int i = 0; i < bird.length; i++) {
             Bitmap originalBird = BitmapFactory.decodeResource(resources, selectedAvatarRes);
-            bird[i] = scaleBitmap(originalBird, 0.10f); // Scale down to 10%
+            bird[i] = scaleBitmap(originalBird, 0.075f); // Scale down to 7.5%
         }
     }
-
-
-
-
 
     public Bitmap scaleBitmap(Bitmap bitmap, float scaleFactor) {
         int width = (int) (bitmap.getWidth() * scaleFactor);

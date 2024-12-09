@@ -37,6 +37,8 @@ class MainActivity : ComponentActivity() {
     private lateinit var tapEffectSwitch: Switch
     private val KEY_TAP_EFFECT = "tap_effect_enabled"
 
+    private val highScoreManager by lazy { HighScoreManager(this) }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -62,6 +64,12 @@ class MainActivity : ComponentActivity() {
             startService(musicServiceIntent) // Start music if enabled
         }
 
+        val lastScore = intent.getIntExtra("playerScore", -1)
+        if (lastScore != -1) {
+            println("Last game score: $lastScore") // Debug log
+            Toast.makeText(this, "Last Score: $lastScore", Toast.LENGTH_SHORT).show()
+        }
+
         //settings
         // Find the settings button and overlay container in the layout
         settingsBtn = findViewById(R.id.settingsBtn)
@@ -79,10 +87,9 @@ class MainActivity : ComponentActivity() {
             val intent = Intent(this, ShopActivity::class.java)
             startActivity(intent)
         }
-        highscoreBtn.setOnClickListener{
-            Toast.makeText(this@MainActivity, "High-score!", Toast.LENGTH_SHORT).show()
-//            val intent = Intent(this@MainActivity, GameActivity::class.java)
-//            startActivity(intent)
+        highscoreBtn.setOnClickListener {
+            val intent = Intent(this, HighScoreActivity::class.java)
+            startActivity(intent)
         }
         settingsBtn.setOnClickListener{
             showSettingsOverlay()

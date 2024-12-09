@@ -50,9 +50,6 @@ class ShopActivity : ComponentActivity() {
         recyclerView.adapter = avatarAdapter
     }
 
-
-
-
     private fun onAvatarSelected(avatar: Avatar) {
         val sharedPreferences = getSharedPreferences("GamePrefs", MODE_PRIVATE)
         val purchasedSet = sharedPreferences.getStringSet("purchased_avatars", mutableSetOf())?.toMutableSet() ?: mutableSetOf()
@@ -65,20 +62,14 @@ class ShopActivity : ComponentActivity() {
                 avatar.purchased = true
 
                 // Save updated coins
-                sharedPreferences.edit()
-                    .putInt("coins", userCoins)
-                    .apply()
+                sharedPreferences.edit().putInt("coins", userCoins).apply()
 
                 // Add avatar to purchased list
                 purchasedSet.add(avatar.drawableRes.toString())
-                sharedPreferences.edit()
-                    .putStringSet("purchased_avatars", purchasedSet)
-                    .apply()
+                sharedPreferences.edit().putStringSet("purchased_avatars", purchasedSet).apply()
 
                 // Set this avatar as selected
-                sharedPreferences.edit()
-                    .putInt("selected_avatar", avatar.drawableRes)
-                    .apply()
+                sharedPreferences.edit().putInt("selected_avatar", avatar.drawableRes).apply()
 
                 Toast.makeText(this, "Avatar purchased and selected!", Toast.LENGTH_SHORT).show()
             } else {
@@ -87,9 +78,7 @@ class ShopActivity : ComponentActivity() {
         } else {
             // Handle switching to an already purchased avatar
             if (purchasedSet.contains(avatar.drawableRes.toString())) {
-                sharedPreferences.edit()
-                    .putInt("selected_avatar", avatar.drawableRes)
-                    .apply()
+                sharedPreferences.edit().putInt("selected_avatar", avatar.drawableRes).apply()
 
                 Toast.makeText(this, "Avatar selected!", Toast.LENGTH_SHORT).show()
             } else {
@@ -102,17 +91,11 @@ class ShopActivity : ComponentActivity() {
         recyclerView.adapter?.notifyDataSetChanged()
     }
 
-
-
-
     private fun updateCoinsDisplay() {
         val sharedPreferences = getSharedPreferences("GamePrefs", MODE_PRIVATE)
         userCoins = sharedPreferences.getInt("coins", 0)
         shopCoinsTextView.text = "Coins: $userCoins"
     }
-
-
-
 }
 
 
